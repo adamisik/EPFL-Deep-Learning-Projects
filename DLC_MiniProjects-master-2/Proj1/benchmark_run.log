@@ -1,0 +1,242 @@
+/----------------TESTING------------------\
+| ResNet with weight sharing with batch normalization
+| ResNet with weight sharing with dropout
+| Test Accuracy mean: 96.53 % 
+| Test Accuracy std: 0.70 % 
+| Training Accuracy mean: 98.25 % 
+| Training Accuracy std: 0.72 % 
+| Mean model training time: 23.65 s
+| Parameters: 23722
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet with weight sharing with batch normalization
+| ResNet with weight sharing without dropout
+| Test Accuracy mean: 96.26 % 
+| Test Accuracy std: 0.89 % 
+| Training Accuracy mean: 98.48 % 
+| Training Accuracy std: 0.95 % 
+| Mean model training time: 31.34 s
+| Parameters: 23722
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet with weight sharing without batch normalization
+| ResNet with weight sharing with dropout
+| Test Accuracy mean: 85.38 % 
+| Test Accuracy std: 5.24 % 
+| Training Accuracy mean: 85.65 % 
+| Training Accuracy std: 4.41 % 
+| Mean model training time: 18.23 s
+| Parameters: 23402
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet with weight sharing without batch normalization
+| ResNet with weight sharing without dropout
+| Test Accuracy mean: 87.36 % 
+| Test Accuracy std: 4.55 % 
+| Training Accuracy mean: 87.13 % 
+| Training Accuracy std: 4.59 % 
+| Mean model training time: 21.70 s
+| Parameters: 23402
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet without weight sharing with batch normalization
+| ResNet without weight sharing with dropout
+| Test Accuracy mean: 94.09 % 
+| Test Accuracy std: 2.02 % 
+| Training Accuracy mean: 96.92 % 
+| Training Accuracy std: 2.14 % 
+| Mean model training time: 24.22 s
+| Parameters: 47444
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet without weight sharing with batch normalization
+| ResNet without weight sharing without dropout
+| Test Accuracy mean: 94.84 % 
+| Test Accuracy std: 2.37 % 
+| Training Accuracy mean: 98.31 % 
+| Training Accuracy std: 2.55 % 
+| Mean model training time: 30.66 s
+| Parameters: 47444
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet without weight sharing without batch normalization
+| ResNet without weight sharing with dropout
+| Test Accuracy mean: 83.04 % 
+| Test Accuracy std: 4.03 % 
+| Training Accuracy mean: 82.93 % 
+| Training Accuracy std: 4.09 % 
+| Mean model training time: 18.89 s
+| Parameters: 46804
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| ResNet without weight sharing without batch normalization
+| ResNet without weight sharing without dropout
+| Test Accuracy mean: 84.52 % 
+| Test Accuracy std: 3.32 % 
+| Training Accuracy mean: 84.94 % 
+| Training Accuracy std: 3.14 % 
+| Mean model training time: 22.87 s
+| Parameters: 46804
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese auxloss with batch normalization
+| Siamese auxloss without dropout
+| Test Accuracy mean: 96.92 % 
+| Test Accuracy std: 0.60 % 
+| Training Accuracy mean: 100.00 % 
+| Training Accuracy std: 0.00 % 
+| Mean model training time: 9.90 s
+| Parameters: 360236
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese auxloss without batch normalization
+| Siamese auxloss without dropout
+| Test Accuracy mean: 96.28 % 
+| Test Accuracy std: 0.71 % 
+| Training Accuracy mean: 99.76 % 
+| Training Accuracy std: 0.13 % 
+| Mean model training time: 7.29 s
+| Parameters: 359084
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese contrastive with batch normalization
+| Siamese contrastive without dropout
+| Test Accuracy mean: 95.20 % 
+| Test Accuracy std: 0.70 % 
+| Training Accuracy mean: 100.00 % 
+| Training Accuracy std: 0.00 % 
+| Mean model training time: 5.06 s
+| Parameters: 62154
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese contrastive without batch normalization
+| Siamese contrastive without dropout
+| Test Accuracy mean: 95.63 % 
+| Test Accuracy std: 0.94 % 
+| Training Accuracy mean: 98.79 % 
+| Training Accuracy std: 0.54 % 
+| Mean model training time: 3.27 s
+| Parameters: 61706
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese class with batch normalization
+| Siamese class without dropout
+| Test Accuracy mean: 96.92 % 
+| Test Accuracy std: 0.60 % 
+| Training Accuracy mean: 100.00 % 
+| Training Accuracy std: 0.00 % 
+| Mean model training time: 4.83 s
+| Parameters: 62154
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese class without batch normalization
+| Siamese class without dropout
+| Test Accuracy mean: 96.28 % 
+| Test Accuracy std: 0.71 % 
+| Training Accuracy mean: 99.76 % 
+| Training Accuracy std: 0.13 % 
+| Mean model training time: 3.20 s
+| Parameters: 61706
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese Target with batch normalization
+| Siamese Target without dropout
+| Test Accuracy mean: 84.34 % 
+| Test Accuracy std: 2.41 % 
+| Training Accuracy mean: 100.00 % 
+| Training Accuracy std: 0.00 % 
+| Mean model training time: 4.90 s
+| Parameters: 62386
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese Target without batch normalization
+| Siamese Target without dropout
+| Test Accuracy mean: 84.64 % 
+| Test Accuracy std: 1.77 % 
+| Training Accuracy mean: 99.79 % 
+| Training Accuracy std: 0.41 % 
+| Mean model training time: 3.32 s
+| Parameters: 61938
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese no sharing with batch normalization
+| Siamese no sharing without dropout
+| Test Accuracy mean: 96.33 % 
+| Test Accuracy std: 0.71 % 
+| Training Accuracy mean: 100.00 % 
+| Training Accuracy std: 0.00 % 
+| Mean model training time: 5.15 s
+| Parameters: 124308
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Siamese no sharing without batch normalization
+| Siamese no sharing without dropout
+| Test Accuracy mean: 95.29 % 
+| Test Accuracy std: 0.78 % 
+| Training Accuracy mean: 99.96 % 
+| Training Accuracy std: 0.07 % 
+| Mean model training time: 3.37 s
+| Parameters: 123412
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Simple Net with batch normalization
+| Simple Net without dropout
+| Test Accuracy mean: 81.01 % 
+| Test Accuracy std: 2.81 % 
+| Training Accuracy mean: 98.84 % 
+| Training Accuracy std: 3.96 % 
+| Mean model training time: 9.07 s
+| Parameters: 298082
+\-----------------DONE--------------------/
+
+
+/----------------TESTING------------------\
+| Simple Net without batch normalization
+| Simple Net without dropout
+| Test Accuracy mean: 77.56 % 
+| Test Accuracy std: 4.75 % 
+| Training Accuracy mean: 89.06 % 
+| Training Accuracy std: 10.43 % 
+| Mean model training time: 5.89 s
+| Parameters: 297378
+\-----------------DONE--------------------/
+
+
+All architectures were successfully trained and tested in 2568.18 s!
+
