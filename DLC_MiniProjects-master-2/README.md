@@ -7,11 +7,6 @@ Classification, weight sharing, auxiliary losses
 # Proj2 
 Mini Deep Learning framework
 
-SCIPER Simon: 303325
-
-SCIPER Adam: 319859
-
-SCIPER Luã: 258892
 
 # How to activate the enviroment 
 
